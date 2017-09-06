@@ -3,12 +3,11 @@ This module lets you practice the ACCUMULATOR pattern in classic forms:
    SUMMING:    total = total + number
    COUNTING:   count = count + 1
 
-A subsequent module lets you practice the ACCUMULATOR pattern
-in another classic form:
+A subsequent module lets you practice the ACCUMULATOR pattern in another classic form:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
@@ -38,14 +37,14 @@ def test_sum_more_cosines():
     #
     # To implement this TEST function, use the same 4 steps as before:
     #
-    #   Step 1: Read the green doc-string of  sum_more_cosines  below.
+    #   Step 1: Read the doc-string of  sum_more_cosines  below.
     #     Understand what that function SHOULD return.
     #
     #   Step 2:  Pick a test case:  numbers that you could send as
     #     actual arguments to the  sum_more_cosines  function.
     #
     #   Step 3: Figure out (by hand, or by trusting a test case that
-    #     your instructor provided in the green doc-string)
+    #     your instructor provided in the doc-string)
     #     the CORRECT (EXPECTED) answer for your test case.
     #
     #   Step 4: Write code that prints both the EXPECTED answer
@@ -64,7 +63,7 @@ def test_sum_more_cosines():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 2 (continued).
+    # TO DO: 2 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
@@ -119,7 +118,7 @@ def test_count_sines_from():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 4 (continued).
+    # TO DO: 4 (continued).
     # Below this comment, add 5 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
@@ -175,7 +174,7 @@ def test_count_sines_vs_cosines():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 6 (continued).
+    # TO DO: 6 (continued).
     # Below this comment, add 5 more test cases of your own choosing.
     # ------------------------------------------------------------------
 

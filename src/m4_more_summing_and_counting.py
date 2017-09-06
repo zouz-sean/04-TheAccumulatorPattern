@@ -12,7 +12,7 @@ in its "in graphics" form:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  March 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
@@ -99,8 +99,8 @@ def test_sum_from():
 #     -- what a FORMULA answer is
 #     -- how the above are used in testing
 #   THEN:
-# CHANGE THE TODO at the beginning of this comment to DONE.
-# There is no code to be written for this TODO (just reading).
+# CHANGE THE TO DO at the beginning of this comment to DONE.
+# There is no code to be written for this TO DO (just reading).
 # ----------------------------------------------------------------------
 
 
@@ -157,7 +157,7 @@ def test_factorial():
     print('       actual (from my code): ', answer_from_my_code)
 
     # ------------------------------------------------------------------
-    # TODO: 4 (continued).
+    # TO DO: 4 (continued).
     # Below this comment, add 3 more test cases, at least two of which
     #   ** uses  math.factorial  as an ORACLE for testing. **
     # ------------------------------------------------------------------
@@ -192,14 +192,14 @@ def test_count_cosines_from():
     #
     # To implement this TEST function, use the same 4 steps as before:
     #
-    #   Step 1: Read the green doc-string of  count_cosines_from  below.
+    #   Step 1: Read the doc-string of  count_cosines_from  below.
     #     Understand what that function SHOULD return.
     #
     #   Step 2:  Pick a test case:  numbers that you could send as
     #     actual arguments to the  count_cosines_from  function.
     #
     #   Step 3: Figure out (by hand, or by using an oracle: a test case
-    #     that your instructor provided in the green doc-string, or a
+    #     that your instructor provided in the doc-string, or a
     #     known formula or an alternative implementation that you trust)
     #     the CORRECT (EXPECTED) answer for your test case.
     #
@@ -219,7 +219,7 @@ def test_count_cosines_from():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 6 (continued).
+    # TO DO: 6 (continued).
     # Below this comment, add 5 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
@@ -273,7 +273,7 @@ def test_sum_unit_fractions_from():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 8 (continued).
+    # TO DO: 8 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
 

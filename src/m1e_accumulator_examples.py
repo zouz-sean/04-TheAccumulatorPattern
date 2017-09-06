@@ -5,7 +5,7 @@ This module demonstrates the ACCUMULATOR pattern in three classic forms:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         Mark Hays and their colleagues.  March 2016.
+         Mark Hays and their colleagues.
 """
 # ----------------------------------------------------------------------
 # Students: Read and run this program.  There is nothing else
