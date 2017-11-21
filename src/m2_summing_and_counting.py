@@ -23,12 +23,12 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 # ----------------------------------------------------------------------
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_more_cosines()
-    test_count_sines_from()
-    test_count_sines_vs_cosines()
+    run_test_sum_more_cosines()
+    run_test_count_sines_from()
+    run_test_count_sines_vs_cosines()
 
 
-def test_sum_more_cosines():
+def run_test_sum_more_cosines():
     """ Tests the   sum_more_cosines   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -96,7 +96,7 @@ def sum_more_cosines(m, n):
     # ------------------------------------------------------------------
 
 
-def test_count_sines_from():
+def run_test_count_sines_from():
     """ Tests the   count_sines_from   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -152,7 +152,7 @@ def count_sines_from(m, n):
     # ------------------------------------------------------------------
 
 
-def test_count_sines_vs_cosines():
+def run_test_count_sines_vs_cosines():
     """ Tests the   count_sines_vs_cosines   function. """
     # ------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.

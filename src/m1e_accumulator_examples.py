@@ -23,12 +23,12 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_summing_example()
-    test_counting_example()
-    test_draw_row_of_circles()
+    run_test_summing_example()
+    run_test_counting_example()
+    run_test_draw_row_of_circles()
 
 
-def test_summing_example():
+def run_test_summing_example():
     """ Tests the   summing_example   function. """
     print()
     print('--------------------------------------------------')
@@ -72,7 +72,7 @@ def summing_example(n):
     return total
 
 
-def test_counting_example():
+def run_test_counting_example():
     """ Tests the   counting_example   function. """
     print()
     print('--------------------------------------------------')
@@ -124,7 +124,7 @@ def counting_example(n):
     return count
 
 
-def test_draw_row_of_circles():
+def run_test_draw_row_of_circles():
     """ Tests the   draw_row_of_circles   function. """
     print()
     print('--------------------------------------------------')
@@ -239,6 +239,7 @@ def draw_row_of_circles(n, point, color, window):
         x = x + (radius * 2)
 
     window.render()
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

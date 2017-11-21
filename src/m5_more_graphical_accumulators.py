@@ -27,12 +27,12 @@ import rosegraphics as rg
 # ----------------------------------------------------------------------
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_draw_squares_from_circle()
-    test_draw_circles_from_rectangle()
-    test_draw_lines_from_rectangles()
+    run_test_draw_squares_from_circle()
+    run_test_draw_circles_from_rectangle()
+    run_test_draw_lines_from_rectangles()
 
 
-def test_draw_squares_from_circle():
+def run_test_draw_squares_from_circle():
     """ Tests the   draw_squares_from_circle  function. """
     print()
     print('--------------------------------------------------')
@@ -113,7 +113,7 @@ def draw_squares_from_circle(n, circle, window):
     # ------------------------------------------------------------------
 
 
-def test_draw_circles_from_rectangle():
+def run_test_draw_circles_from_rectangle():
     """ Tests the   draw_circles_from_rectangle  function. """
     print()
     print('--------------------------------------------------')
@@ -191,7 +191,7 @@ def draw_circles_from_rectangle(m, n, rectangle, window):
     # ------------------------------------------------------------------
 
 
-def test_draw_lines_from_rectangles():
+def run_test_draw_lines_from_rectangles():
     """ Tests the   draw_lines_from_rectangles  function. """
     print()
     print('--------------------------------------------------')

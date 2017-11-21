@@ -27,11 +27,11 @@ import rosegraphics as rg
 # ----------------------------------------------------------------------
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_draw_parallel_lines()
-    test_draw_lines()
+    run_test_draw_parallel_lines()
+    run_test_draw_lines()
 
 
-def test_draw_parallel_lines():
+def run_test_draw_parallel_lines():
     """ Tests the   draw_parallel_lines  function. """
     print()
     print('--------------------------------------------------')
@@ -111,7 +111,7 @@ def draw_parallel_lines(n, point, length, window):
     # ------------------------------------------------------------------
 
 
-def test_draw_lines():
+def run_test_draw_lines():
     """ Tests the   draw_lines  function. """
     print()
     print('--------------------------------------------------')

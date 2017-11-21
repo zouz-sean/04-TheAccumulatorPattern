@@ -31,16 +31,16 @@ import builtins  # Never necessary, but here for pedagogical reasons
 # ----------------------------------------------------------------------
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_from()
-    test_factorial()
-    test_count_cosines_from()
-    test_sum_unit_fractions_from()
+    run_test_sum_from()
+    run_test_factorial()
+    run_test_count_cosines_from()
+    run_test_sum_unit_fractions_from()
 
 
 # ----------------------------------------------------------------------
-# Students: READ the  test_sum_from  function that follows this comment.
+# Students: READ the  run_test_sum_from  function that follows this comment.
 # ----------------------------------------------------------------------
-def test_sum_from():
+def run_test_sum_from():
     """ Tests the   sum_from   function. """
     print()
     print('--------------------------------------------------')
@@ -91,7 +91,7 @@ def test_sum_from():
 
 # ----------------------------------------------------------------------
 # TODO: 2.
-#   When you have READ the above  test_sum_from  function,
+#   When you have READ the above  run_test_sum_from  function,
 #   asking questions as needed, and you feel that you (mostly, at least)
 #   understand it, and you feel that you understand from the example:
 #     -- what an ORACLE answer is
@@ -126,7 +126,7 @@ def sum_from(m, n):
     # ------------------------------------------------------------------
 
 
-def test_factorial():
+def run_test_factorial():
     """ Tests the   factorial   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -181,7 +181,7 @@ def factorial(n):
     # ------------------------------------------------------------------
 
 
-def test_count_cosines_from():
+def run_test_count_cosines_from():
     """ Tests the   count_cosines_from   function. """
     # ------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.
@@ -253,7 +253,7 @@ def count_cosines_from(m, n, x):
     # ------------------------------------------------------------------
 
 
-def test_sum_unit_fractions_from():
+def run_test_sum_unit_fractions_from():
     """ Tests the   sum_unit_fractions_from   function. """
     # ------------------------------------------------------------------
     # TODO: 8. Implement this TEST function.
